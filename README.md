@@ -10,7 +10,7 @@ A responsive user profile page of Scentbird website containing information about
 The app is created with React and Bootstrap, uses Gulp as a building utility, and LESS as a CSS pre-processor.
 
 # Demo
-A demo is hosted on Heroku ([here](https://scentbird.herokuapp.com/#/home)).
+A demo is hosted on Heroku ([https://scentbird.herokuapp.com](https://scentbird.herokuapp.com)).
 
 # Supported browsers
 
