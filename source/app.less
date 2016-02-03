@@ -1,0 +1,528 @@
+@import 'variables';
+
+// Common.
+body {
+    font: @font-size-md ProximaNova, sans-serif;
+    color: @gray;
+}
+
+.vertical-align {
+    .display-flex;
+    .align-items(center);
+}
+
+// Bootsrtap.
+.form-control {
+    font-size: @font-size-sm;
+    border-radius: 0;
+}
+
+.btn-lg {
+
+}
+
+.input-lg {
+    height: 60px;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+// Header.
+.header {
+    height: 67px;
+    background-color: @black;
+    margin-bottom: 120px;
+}
+
+// Footer.
+.footer {
+    height: 160px;
+    margin-top: 320px;
+    background-color: @black;
+}
+
+// Perfume.
+.perfume {
+    background-color: @gray-lightest;
+    border-top: 1px solid @gray-lighter;
+    border-bottom: 1px solid @gray-lighter;
+    padding: 50px 0;
+
+    .container:first-child {
+        margin-bottom: 50px;
+    }
+
+    &-text {
+        color: @white;
+        text-align: center;
+
+        .text-uppercase {
+            font-weight: bold;
+        }
+
+        &:nth-child(1) {
+            font-size: @font-size-lg;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        &:nth-child(2) {
+            line-height: 40px;
+        }
+    }
+
+    &-friends-text {
+        text-align: center;
+        margin-top: 20px;
+
+        div:nth-child(1) {
+            color: @white;
+            margin-bottom: 10px;
+        }
+
+        div:nth-child(2) {
+            font-size: @font-size-sm;
+        }
+    }
+
+    &-images {
+        .display-flex;
+        .flex-wrap(wrap);
+    }
+
+    &-col {
+        padding-right: 15px;
+        padding-left: 15px;
+
+        &-1 {
+            width: 50%;
+        }
+
+        &-2 {
+            width: 50%;
+        }
+
+        &-3 {
+            display: none;
+        }
+
+        &-4 {
+            display: none;
+        }
+
+        &-5 {
+            width: 50%;
+        }
+
+        &-6 {
+            width: 50%;
+            margin-left: 50%;
+        }
+
+        &-arrow-1, &-arrow-2 {
+            display: none;
+        }
+
+        &-arrow-3 {
+            width: 50%;
+            padding: 0;
+        }
+    }
+}
+
+// Adv.
+.adv {
+    border-bottom: 1px solid @gray-lighter;
+    padding-top: 80px;
+
+    &-text {
+        font-size: @font-size-xl;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &-inner {
+        border-bottom: 1px solid @gray-light;
+    }
+}
+
+// Email.
+.email {
+    margin-bottom: 40px;
+    margin-top: 140px;
+
+    .btn {
+        border: 0;
+        border-radius: 0;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .container {
+        background-color: @gray-lightest;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+// Pink button.
+// Such a complex selector to override Bootstrap rules.
+.btn-pink.btn-default.btn {
+    color: @white;
+    background-color: @pink;
+
+    &:hover {
+        color: @white;
+        background-color: @pink-light;
+    }
+
+    .btn &:focus,
+    .btn &.focus,
+    .btn &:active,
+    .btn &.active {
+        color: @white;
+        background-color: @ping-dark;
+    }
+}
+
+// Share.
+.share {
+    &-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .fa {
+        font-size: @font-size-lg;
+        top: 4px;
+        position: relative;
+        margin-right: 25px;
+    }
+}
+
+.fb-share-button, .google-button, .copy-button {
+    position: relative;
+    height: 58px;
+    padding: 0 0 0 35px;
+    border-radius: 29px;
+    color: @white;
+    line-height: 58px;
+    margin: 25px auto 0 auto;
+    max-width: 290px;
+}
+
+.fb-share-button {
+    margin-top: 0;
+    background-color: #4e6a9c;
+}
+
+.google-button {
+
+    background-color: #cc4a41;
+}
+
+.copy-button {
+    background-color: #e8f7ed;
+    border: 2px solid #52c17b;
+
+    .fa {
+        color: #c1c1c1;
+    }
+}
+
+// Results.
+.results {
+    background-color: @gray-lightest;
+    border-top: 1px solid @gray-lighter;
+    border-bottom: 1px solid @gray-lighter;
+    padding: 45px 0;
+    margin-top: 80px;
+
+    .container:nth-child(2) {
+        position: relative;
+    }
+
+    .separator {
+        position: absolute;
+        width: 4px;
+        height: 120px;
+        background-color: @gray-lighter;
+        left: 50%;
+        top: 50%;
+        margin: -60px 0 0 -2px;
+    }
+
+    &-title {
+        font-size: @font-size-lg;
+        color: @white;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+
+    &-text {
+        text-align: center;
+        text-transform: uppercase;
+        color: @white;
+        font-size: @font-size-xxs;
+        margin-bottom: 25px;
+    }
+
+    &-count {
+        font-size: @font-size-xll;
+        color: @white;
+    }
+}
+
+// Friends.
+.friends {
+    margin-top: 140px;
+    margin-bottom: 15px;
+
+    &-title {
+        display: none;
+        color: @white;
+        font-size: @font-size-lg;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    &-full {
+        display: none;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .table {
+        border-top: 2px solid @gray-light;
+        border-bottom: 2px solid @gray-light;
+        margin-bottom: 15px;
+
+        th, td {
+            padding-bottom: 7px;
+            padding-top: 7px;
+        }
+
+        th {
+            padding-bottom: 15px;
+            padding-top: 15px;
+            font-weight: normal;
+            border-bottom: 2px solid @gray-light;
+
+            &:first-child {
+                padding-left: 15px;
+            }
+
+            &:last-child {
+                text-align: right;
+                padding-right: 15px;
+            }
+        }
+
+        td {
+            border-top: 0;
+
+            &:nth-child(3), &:nth-child(4) {
+                width: 51px;
+                max-width: 51px;
+            }
+
+            &:first-child {
+                padding-left: 15px;
+            }
+
+            &:last-child {
+                text-align: center;
+                padding-right: 15px;
+            }
+        }
+
+        tr {
+            &:first-child td {
+                padding-top: 15px;
+            }
+
+            &:last-child td {
+                padding-bottom: 15px;
+            }
+        }
+    }
+}
+
+// Icon.
+.icon {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url('/images/icons.png') no-repeat scroll 0 1000px rgba(0, 0, 0, 0);
+    vertical-align: middle;
+
+    &-crown {
+        background-position: 0 -35px;
+    }
+
+    &-girl {
+        background-position: 0 0;
+    }
+}
+
+// Pager.
+.custom-pager {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    padding: 0;
+    font-size: @font-size-xs;
+    text-transform: uppercase;
+
+    li {
+        display: inline;
+
+        &:first-child {
+            a {
+                margin-left: 0;
+            }
+        }
+
+        &:last-child {
+            a {
+                margin-right: 0;
+            }
+        }
+    }
+
+    a, span {
+        position: relative;
+        float: left;
+        text-decoration: none;
+        color: @gray-dark;
+    }
+
+    a {
+        margin: 0 10px;
+    }
+
+    a:hover, a:hover span {
+        color: @gray;
+    }
+}
+
+// Breakpoints.
+@media (min-width: @screen-sm) {
+    // Perfume.
+    .perfume {
+        &-images {
+        }
+
+        &-col {
+            &-1 {
+                margin-right: 0;
+                width: 25%;
+
+                img {
+                    content: url('../images/tell-friends.png');
+                }
+            }
+
+            &-2 {
+                .order(6);
+                width: 33.33333333%;
+            }
+
+            &-3 {
+                display: block;
+                width: 25%;
+            }
+
+            &-4 {
+                display: block;
+                .order(7);
+                width: 33.33333333%;
+            }
+
+            &-5 {
+                width: 25%;
+            }
+
+            &-6 {
+                width: 33.33333333%;
+                margin-left: 0;
+                .order(8);
+            }
+
+            &-arrow-1, &-arrow-2 {
+                display: block;
+                width: 12.5%;
+            }
+
+            &-arrow-3 {
+                display: none;
+            }
+        }
+    }
+
+    // Adv.
+    .adv {
+        &-text {
+            margin-bottom: 0;
+            margin-top: 60px;
+            margin-left: 50px;
+            text-align: left;
+        }
+    }
+
+    // Email.
+    .email {
+        margin-top: 200px;
+        margin-bottom: 75px;
+    }
+
+    // Share.
+    .fb-share-button, .google-button, .copy-button {
+        margin-top: 0;
+    }
+
+    // Result.
+    .result {
+        margin-top: 145px;
+        padding-top: 90px;
+        padding-bottom: 70px;
+
+        &-text {
+            font-size: @font-size-md;
+        }
+
+        .separator {
+            height: 190px;
+            margin-top: -95px;
+        }
+    }
+
+    // Friends.
+    .friends {
+        margin-top: 50px;
+
+        &-title {
+            display: block;
+        }
+
+        &-inner {
+            padding: 40px 90px;
+            background-color: @gray-lightest;
+        }
+
+        &-full {
+            display: inline;
+        }
+
+        &-short {
+            display: none;
+        }
+
+        .table th:first-child {
+            content: data-title;
+        }
+    }
+}

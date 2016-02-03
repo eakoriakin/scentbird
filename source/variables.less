@@ -1,0 +1,50 @@
+// Colors.
+@gray: #03000a;
+@gray-darker: #3b3b3b;
+@gray-dark: #979797;
+@gray-light: #a9a9a9;
+@gray-lighter: #ececec;
+@gray-lightest: #f7f8f9;
+
+@white: #ffffff;
+@black: #000000;
+@pink: #ff458f;
+@pink-light: #f6609b;
+@ping-dark: #fe3484;
+
+// Font.
+@font-size-xxs: 14px;
+@font-size-xs: 16px;
+@font-size-sm: 18px;
+@font-size-md: 20px;
+@font-size-lg: 26px;
+@font-size-xl: 30px;
+@font-size-xll: 38px;
+
+// Media queries breakpoints.
+@screen-xs: 320px;
+@screen-sm: 768px;
+
+// Mixins.
+.display-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+.align-items (@value) {
+    -webkit-align-items: @value;
+    align-items: @value;
+}
+
+.flex-wrap (@value) {
+    -webkit-flex-wrap: @value;
+    flex-wrap: @value;
+}
+
+.order(@value) {
+    -webkit-order: @value;
+    -ms-order: @value;
+    order: @value;
+}

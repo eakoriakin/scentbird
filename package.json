@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0",
+    "name": "scentbird",
+    "title": "Scentbird",
+    "description": "A responsive user profile page of Scentbird website containing information about user referral program.",
+    "author": {
+        "name": "Evgenii Koriakin",
+        "url": "https://github.com/eakoryakin"
+    },
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "engines": {
+        "node": "0.12.7"
+    },
+    "repository": "git@github.com:eakoryakin/scentbird.git",
+    "license": "(MIT OR Apache-2.0)",
+    "dependencies": {
+        "express": "4.13.3"
+    },
+    "devDependencies": {
+        "gulp": "3.8.11",
+        "gulp-jshint": "1.11.2",
+        "gulp-concat": "2.6.0",
+        "connect-livereload": "0.5.3",
+        "tiny-lr": "0.2.0",
+        "gulp-minify-css": "1.2.2",
+        "gulp-less": "3.0.1"
+    }
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "id": 20,
+        "name": "Sergei Gusev",
+        "hasGirl": true,
+        "hasCrown": true,
+        "referralsCount": 10
+    },
+    {
+        "id": 21,
+        "name": "Mariya Nurislamova",
+        "hasGirl": false,
+        "hasCrown": true,
+        "referralsCount": 9
+    },
+    {
+        "id": 22,
+        "name": "Andrei Rebrov",
+        "hasGirl": false,
+        "hasCrown": true,
+        "referralsCount": 9
+    },
+    {
+        "id": 23,
+        "name": "Rachel ten Brink",
+        "hasGirl": false,
+        "hasCrown": false,
+        "referralsCount": 7
+    },
+    {
+        "id": 24,
+        "name": "Anna Soul",
+        "hasGirl": false,
+        "hasCrown": false,
+        "referralsCount": 5
+    },
+    {
+        "id": 25,
+        "name": "Prada Candy",
+        "hasGirl": false,
+        "hasCrown": false,
+        "referralsCount": 1
+    },
+    {
+        "id": 26,
+        "name": "Li Chung",
+        "hasGirl": false,
+        "hasCrown": false,
+        "referralsCount": 1
+    },
+    {
+        "id": 27,
+        "name": "Bill Gates",
+        "hasGirl": false,
+        "hasCrown": false,
+        "referralsCount": 1
+    },
+    {
+        "id": 28,
+        "name": "Steve Jobs",
+        "hasGirl": false,
+        "hasCrown": false,
+        "referralsCount": 1
+    },
+    {
+        "id": 29,
+        "name": "Steve Hoffman",
+        "hasGirl": false,
+        "hasCrown": false,
+        "referralsCount": 1
+    }
+]
