@@ -12,6 +12,12 @@ The app is created with React and Bootstrap, uses Gulp as a building utility, an
 # Demo
 A demo is hosted on Heroku ([https://scentbird.herokuapp.com](https://scentbird.herokuapp.com)).
 
+## Phone presentation
+![Phone presentation](demo/phone.png)
+
+## Tablet and larger screens presentation
+![Tablet and larger screens presentation](demo/tablet.png)
+
 # Supported browsers
 
 ## Desktop
